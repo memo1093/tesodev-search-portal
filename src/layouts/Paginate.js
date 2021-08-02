@@ -45,7 +45,6 @@ export const Paginate = () => {
     return (
         <div className="pagination">
             <button onClick={()=>currentPage!==1&&dispatch(changePage(currentPage-1))}>Previous</button>
-            {console.log(pages)}
             {pages.map(page=>page==='...'?<p className="page-dotted">...</p>:<button className={currentPage===page&&"active"} onClick={()=>dispatch(changePage(page))}>{page}</button>)}
             <button onClick={()=>currentPage!==totalPages&&dispatch(changePage(currentPage+1))}>Next</button>
         </div>
