@@ -2,9 +2,15 @@
 
 React ve redux ile yazılmış olan bir arama yapma uygulamasıdır.
 
+
+
+**Canlı test için bu linke tıklayın : https://tesodev-search-portal.vercel.app/**
+
+
+
 *Not:Uygulama ilk verileri kaydetmek için local storage kullanır.*
 
-*Not: Redux devtools extensions isteyerek dev dependency olarak kaydedilmemiştir. İsteyen kişinin uygulamanın redux kısmında nasıl çalıştığını görmesi amaçlanmıştır.*
+*Not: Redux devtools extensions bilinçli bir şekilde dev dependency olarak kaydedilmemiştir. İsteyen kişinin uygulamanın redux kısmında nasıl çalıştığını görmesi amaçlanmıştır.*
 
 ## Önizleme
 
