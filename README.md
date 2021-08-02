@@ -3,7 +3,8 @@
 React ve redux ile yazılmış olan bir arama yapma uygulamasıdır.
 
 *Not:Uygulama ilk verileri kaydetmek için local storage kullanır.*
-_Not: Redux devtools extensions isteyerek dev dependency olarak kaydedilmemiştir. İsteyen kişinin uygulamanın redux kısmında nasıl çalıştığını görmesi amaçlanmıştır._
+
+*Not: Redux devtools extensions isteyerek dev dependency olarak kaydedilmemiştir. İsteyen kişinin uygulamanın redux kısmında nasıl çalıştığını görmesi amaçlanmıştır.*
 
 ## Önizleme
 
