@@ -6,7 +6,7 @@ export const ORDER_BY = "ORDER_BY";
 export const getAllUsers = () => {
   return {
     type: GET_ALL_USERS,
-    payload: JSON.parse(localStorage?.getItem("users")),
+    payload: JSON.parse(localStorage.getItem("users")),
   };
 };
 export const searchUsers = (searchText) => {
